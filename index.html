@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ACHIEVQUIZ - Learn, Play, Achieve</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">✦</span>
+            ACHIEVQUIZ
+        </div>
+
+        <span class="tagline">Learn • Play • Achieve</span>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="star">✦</div>
+
+            <p class="welcome">WELCOME TO ACHIEVQUIZ</p>
+
+            <h1>
+                Belajar Jadi Lebih
+                <span>Menyenangkan!</span>
+            </h1>
+
+            <p class="description">
+                Belajar, bermain kuis, kumpulkan poin,
+                dan raih prestasi bersama ACHIEVQUIZ.
+            </p>
+
+            <div class="role-container">
+
+                <button class="role-card student" onclick="chooseRole('Siswa')">
+                    <span class="role-icon">🎀</span>
+                    <h2>Masuk sebagai Siswa</h2>
+                    <p>Belajar dan mainkan berbagai kuis seru!</p>
+                    <span class="button-text">Mulai Belajar →</span>
+                </button>
+
+                <button class="role-card teacher" onclick="chooseRole('Guru')">
+                    <span class="role-icon">📚</span>
+                    <h2>Masuk sebagai Guru</h2>
+                    <p>Buat kuis dan kelola soal pembelajaran.</p>
+                    <span class="button-text">Buat Kuis →</span>
+                </button>
+
+            </div>
+
+            <p id="message" class="message" aria-live="polite"></p>
+
+        </section>
+
+        <footer>
+            <p>© 2026 ACHIEVQUIZ</p>
+            <p>Made with ♡ for better learning</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
