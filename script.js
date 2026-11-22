@@ -1,4 +1,3 @@
-
 function chooseRole(role) {
     const message = document.getElementById("message");
 
@@ -12,5 +11,4 @@ function chooseRole(role) {
         ". Fitur dashboard akan kita buat pada tahap berikutnya.";
 }
 
-// Pastikan fungsi dapat dipanggil dari tombol HTML
 window.chooseRole = chooseRole;
