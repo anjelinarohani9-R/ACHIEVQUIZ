@@ -1,14 +1,21 @@
-function chooseRole(role) {
-    const message = document.getElementById("message");
 
-    if (!message) {
-        alert("Elemen pesan tidak ditemukan!");
-        return;
-    }
+// ============================
+// ACHIEVQUIZ - JAVASCRIPT
+// ============================
 
-    message.textContent =
-        "Kamu memilih masuk sebagai " + role +
-        ". Fitur dashboard akan kita buat pada tahap berikutnya.";
+console.log("ACHIEVQUIZ berhasil dijalankan!");
+
+// Tombol mulai
+function mulaiBelajar() {
+    alert("Welcome to ACHIEVQUIZ! Let's Play!");
 }
 
-window.chooseRole = chooseRole;
+// Tombol informasi
+function tampilkanInfo() {
+    alert("ACHIEVQUIZ - Play Smart, Learn Better!");
+}
+
+// Navigasi sederhana
+function bukaMenu(menu) {
+    alert("Kamu membuka menu: " + menu);
+}
